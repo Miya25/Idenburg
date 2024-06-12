@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Discord DM Call Button Hider",
+  "version": "1.0",
+  "description": "Hides voice and video call buttons in Discord DMs",
+  "content_scripts": [
+    {
+      "matches": ["https://discord.com/channels/@me/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
